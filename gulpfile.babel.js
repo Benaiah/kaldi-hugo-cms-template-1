@@ -26,7 +26,7 @@ gulp.task("cms", () => {
   match.replace(/github.com:(\S+)(\.git)?/, (_, m) => {
     repo = m.replace(/\.git$/, "");
   });
-  gulp.src("./src/cms/*")
+  gulp.src("./src/assets/cms/*")
     .pipe(replace("<% GITHUB_REPOSITORY %>", repo))
     .pipe(gulp.dest("./dist/admin"))
     .pipe(browserSync.stream());
