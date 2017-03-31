@@ -41,3 +41,8 @@ All SVG icons stored in `site/static/img/icons` are automatically optimized with
   <use xlink:href="#SVG-ID"></use>
 </svg>
 ```
+
+
+## Submodule help for themes
+
+http://stackoverflow.com/questions/12218420/add-a-submodule-which-cant-be-removed-from-the-index
